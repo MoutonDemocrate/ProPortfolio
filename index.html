@@ -1,746 +1,267 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html data-bs-theme="auto" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>proPortfolio</title>
-    <meta property="og:title" content="proPortfolio" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
-
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: DM Sans;
-        font-size: 16px;
-      }
-
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: undefined;
-        letter-spacing: normal;
-        line-height: 1.3;
-        color: var(--dl-color-scheme-darkblue);
-        background-color: var(--dl-color-scheme-white);
-
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital,wght@0,400;1,400&amp;display=swap"
-      data-tag="font"
-    />
-    <style>
-      .services-card:hover > div{
-      background-color: #fff
-      }
-    </style>
-  </head>
-  <body>
-    <link rel="stylesheet" href="./style.css" />
-    <div>
-      <link href="./index.css" rel="stylesheet" />
-
-      <div class="home-container">
-        <header data-role="Header" class="navigation-header">
-          <div class="navigation-max-width">
-            <img alt="logo" src="public/logo1-1200w.png" />
-            <div class="navigation-nav">
-              <nav
-                class="navigation-links-nav navigation-links-root-class-name17"
-              >
-                <span class="navigation-links-text Navigation-Link">
-                  <span>Home</span>
-                </span>
-                <span class="navigation-links-text1 Navigation-Link">
-                  <span>About</span>
-                </span>
-                <span class="navigation-links-text2 Navigation-Link">
-                  <span>Portofolio</span>
-                </span>
-                <span class="navigation-links-text3 Navigation-Link">
-                  <span>Blog</span>
-                </span>
-              </nav>
-              <button class="button-secondary button button-md">
-                <span>Get in touch</span>
-              </button>
-            </div>
-            <div data-role="BurgerMenu" class="navigation-burger-menu">
-              <svg viewBox="0 0 1024 1024" class="navigation-icon">
-                <path
-                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                ></path>
-              </svg>
-            </div>
-            <div data-role="MobileMenu" class="mobile-menu">
-              <div class="navigation-nav1">
-                <div class="navigation-container">
-                  <img alt="image" src="public/logo1-1200w.png" />
-                  <div
-                    data-role="CloseMobileMenu"
-                    class="navigation-close-mobile-menu"
-                  >
-                    <svg viewBox="0 0 1024 1024" class="navigation-icon2">
-                      <path
-                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <nav
-                  class="navigation-links-nav navigation-links-root-class-name18"
-                >
-                  <span class="navigation-links-text Navigation-Link">
-                    <span>Home</span>
-                  </span>
-                  <span class="navigation-links-text1 Navigation-Link">
-                    <span>About</span>
-                  </span>
-                  <span class="navigation-links-text2 Navigation-Link">
-                    <span>Portofolio</span>
-                  </span>
-                  <span class="navigation-links-text3 Navigation-Link">
-                    <span>Blog</span>
-                  </span>
-                </nav>
-                <button class="button-secondary button button-md">
-                  <span>Get in touch</span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </header>
-        <main class="home-main">
-          <div class="home-hero section-container">
-            <div class="home-max-width max-content-container">
-              <div class="home-heading-container">
-                <h1 class="home-text Heading1">My Name is Laérian Bontinck</h1>
-                <span class="home-text01">
-                  I study computer science engineering at the ENSEEIHT School of
-                  Toulouse.
-                </span>
-                <button class="home-primary button-primary button-lg button">
-                  Contact me.
-                </button>
-              </div>
-              <div class="home-gallery">
-                <div class="home-container1">
-                  <img
-                    alt="image"
-                    src="public/rectangle%2095-1000w.png"
-                    class="home-image"
-                  />
-                </div>
-                <div class="home-container2">
-                  <img
-                    alt="image"
-                    src="public/rectangle%2095%20%5B1%5D-1000w.png"
-                    class="home-image1"
-                  />
-                  <img
-                    alt="image"
-                    src="public/rectangle%2095%20%5B2%5D-1000w.png"
-                    class="home-image2"
-                  />
-                </div>
-                <div class="home-container3">
-                  <img
-                    alt="image"
-                    src="public/rectangle%2095%20%5B3%5D-1000w.png"
-                    class="home-image3"
-                  />
-                  <div class="home-container4">
-                    <img
-                      alt="image"
-                      src="public/rectangle%2095%20%5B4%5D-1000w.png"
-                      class="home-image4"
-                    />
-                    <img
-                      alt="image"
-                      src="public/rectangle%2095%20%5B5%5D-1000w.png"
-                      class="home-image5"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="home-services section-container">
-            <div class="home-max-width1 max-content-container">
-              <div class="home-heading-container1">
-                <div class="home-text-container">
-                  <span class="home-text02">MY SKILLset is ever-expanding</span>
-                  <h2 class="Heading2">
-                    I provide a wide range of effective, creative, powerful
-                    solutions.
-                  </h2>
-                </div>
-                <div class="home-controls">
-                  <button class="control-btn">
-                    <svg viewBox="0 0 1024 1024" class="home-icon">
-                      <path
-                        d="M402.746 877.254l-320-320c-24.994-24.992-24.994-65.516 0-90.51l320-320c24.994-24.992 65.516-24.992 90.51 0 24.994 24.994 24.994 65.516 0 90.51l-210.746 210.746h613.49c35.346 0 64 28.654 64 64s-28.654 64-64 64h-613.49l210.746 210.746c12.496 12.496 18.744 28.876 18.744 45.254s-6.248 32.758-18.744 45.254c-24.994 24.994-65.516 24.994-90.51 0z"
-                      ></path>
-                    </svg>
-                  </button>
-                  <button class="control-btn">
-                    <svg viewBox="0 0 1024 1024" class="home-icon02">
-                      <path
-                        d="M621.254 877.254l320-320c24.994-24.992 24.994-65.516 0-90.51l-320-320c-24.994-24.992-65.516-24.992-90.51 0-24.994 24.994-24.994 65.516 0 90.51l210.746 210.746h-613.49c-35.346 0-64 28.654-64 64s28.654 64 64 64h613.49l-210.746 210.746c-12.496 12.496-18.744 28.876-18.744 45.254s6.248 32.758 18.744 45.254c24.994 24.994 65.516 24.994 90.51 0z"
-                      ></path>
-                    </svg>
-                  </button>
-                </div>
-              </div>
-              <div class="home-cards-container">
-                <div class="services-card">
-                  <div class="services-card-container">
-                    <img
-                      alt="image"
-                      src="public/website-200h.png"
-                      class="services-card-image"
-                    />
-                  </div>
-                  <span class="services-card-text">
-                    <span>Programming</span>
-                  </span>
-                  <span class="services-card-text1">
-                    <span>
-                      I have experience in Python, C++, C, Java and Ada, and I'm
-                      always learning more.
-                    </span>
-                  </span>
-                  <span class="services-card-text2">
-                    <span>Learn more</span>
-                  </span>
-                </div>
-                <div class="services-card">
-                  <div class="services-card-container">
-                    <img
-                      alt="image"
-                      src="public/file-document-200w.png"
-                      class="services-card-image"
-                    />
-                  </div>
-                  <span class="services-card-text"><span>3D</span></span>
-                  <span class="services-card-text1">
-                    <span>Modern projects require</span>
-                  </span>
-                  <span class="services-card-text2">
-                    <span>Learn more</span>
-                  </span>
-                </div>
-                <svg viewBox="0 0 1024 1024" class="home-icon04">
-                  <path
-                    d="M224.256 512l-96.256 67.371v-134.784zM896 579.371l-96.256-67.371 96.256-67.371zM725.333 564.096l137.045 95.957-307.712 199.979v-176.512zM373.077 512l138.923-97.237 138.923 97.237-138.923 97.237zM161.621 660.011l137.045-95.915 170.667 119.467v176.512zM535.765 49.877c-6.784-4.565-14.976-7.211-23.765-7.211s-16.981 2.645-23.765 7.211l-425.344 276.48c-4.779 2.987-9.088 6.955-12.501 11.861-5.333 7.595-7.851 16.341-7.723 24.96v297.643c-0.085 7.851 1.963 15.787 6.315 22.869 1.749 2.859 3.883 5.589 6.357 7.979 2.005 2.005 4.267 3.797 6.741 5.419l0.811 0.512 425.344 276.48c6.784 4.608 14.976 7.253 23.765 7.253s16.981-2.645 23.765-7.211l425.344-276.48c4.779-2.944 9.088-6.912 12.501-11.819 5.333-7.595 7.808-16.341 7.723-25.003v-297.643c0.085-7.851-1.963-15.787-6.315-22.869-1.749-2.859-3.883-5.589-6.357-7.979-2.005-2.005-4.267-3.797-6.741-5.419l-0.811-0.512zM554.667 340.437v-176.469l307.712 200.021-137.045 95.915zM469.333 163.968v176.512l-170.667 119.467-137.045-95.957z"
-                  ></path></svg
-                ><svg viewBox="0 0 1024 1024" class="home-icon06">
-                  <path
-                    d="M224.256 512l-96.256 67.371v-134.784zM896 579.371l-96.256-67.371 96.256-67.371zM725.333 564.096l137.045 95.957-307.712 199.979v-176.512zM373.077 512l138.923-97.237 138.923 97.237-138.923 97.237zM161.621 660.011l137.045-95.915 170.667 119.467v176.512zM535.765 49.877c-6.784-4.565-14.976-7.211-23.765-7.211s-16.981 2.645-23.765 7.211l-425.344 276.48c-4.779 2.987-9.088 6.955-12.501 11.861-5.333 7.595-7.851 16.341-7.723 24.96v297.643c-0.085 7.851 1.963 15.787 6.315 22.869 1.749 2.859 3.883 5.589 6.357 7.979 2.005 2.005 4.267 3.797 6.741 5.419l0.811 0.512 425.344 276.48c6.784 4.608 14.976 7.253 23.765 7.253s16.981-2.645 23.765-7.211l425.344-276.48c4.779-2.944 9.088-6.912 12.501-11.819 5.333-7.595 7.808-16.341 7.723-25.003v-297.643c0.085-7.851-1.963-15.787-6.315-22.869-1.749-2.859-3.883-5.589-6.357-7.979-2.005-2.005-4.267-3.797-6.741-5.419l-0.811-0.512zM554.667 340.437v-176.469l307.712 200.021-137.045 95.915zM469.333 163.968v176.512l-170.667 119.467-137.045-95.957z"
-                  ></path></svg
-                ><svg viewBox="0 0 1024 1024" class="home-icon08">
-                  <path
-                    d="M224.256 512l-96.256 67.371v-134.784zM896 579.371l-96.256-67.371 96.256-67.371zM725.333 564.096l137.045 95.957-307.712 199.979v-176.512zM373.077 512l138.923-97.237 138.923 97.237-138.923 97.237zM161.621 660.011l137.045-95.915 170.667 119.467v176.512zM535.765 49.877c-6.784-4.565-14.976-7.211-23.765-7.211s-16.981 2.645-23.765 7.211l-425.344 276.48c-4.779 2.987-9.088 6.955-12.501 11.861-5.333 7.595-7.851 16.341-7.723 24.96v297.643c-0.085 7.851 1.963 15.787 6.315 22.869 1.749 2.859 3.883 5.589 6.357 7.979 2.005 2.005 4.267 3.797 6.741 5.419l0.811 0.512 425.344 276.48c6.784 4.608 14.976 7.253 23.765 7.253s16.981-2.645 23.765-7.211l425.344-276.48c4.779-2.944 9.088-6.912 12.501-11.819 5.333-7.595 7.808-16.341 7.723-25.003v-297.643c0.085-7.851-1.963-15.787-6.315-22.869-1.749-2.859-3.883-5.589-6.357-7.979-2.005-2.005-4.267-3.797-6.741-5.419l-0.811-0.512zM554.667 340.437v-176.469l307.712 200.021-137.045 95.915zM469.333 163.968v176.512l-170.667 119.467-137.045-95.957z"
-                  ></path></svg
-                ><svg viewBox="0 0 1024 1024" class="home-icon10">
-                  <path
-                    d="M224.256 512l-96.256 67.371v-134.784zM896 579.371l-96.256-67.371 96.256-67.371zM725.333 564.096l137.045 95.957-307.712 199.979v-176.512zM373.077 512l138.923-97.237 138.923 97.237-138.923 97.237zM161.621 660.011l137.045-95.915 170.667 119.467v176.512zM535.765 49.877c-6.784-4.565-14.976-7.211-23.765-7.211s-16.981 2.645-23.765 7.211l-425.344 276.48c-4.779 2.987-9.088 6.955-12.501 11.861-5.333 7.595-7.851 16.341-7.723 24.96v297.643c-0.085 7.851 1.963 15.787 6.315 22.869 1.749 2.859 3.883 5.589 6.357 7.979 2.005 2.005 4.267 3.797 6.741 5.419l0.811 0.512 425.344 276.48c6.784 4.608 14.976 7.253 23.765 7.253s16.981-2.645 23.765-7.211l425.344-276.48c4.779-2.944 9.088-6.912 12.501-11.819 5.333-7.595 7.808-16.341 7.723-25.003v-297.643c0.085-7.851-1.963-15.787-6.315-22.869-1.749-2.859-3.883-5.589-6.357-7.979-2.005-2.005-4.267-3.797-6.741-5.419l-0.811-0.512zM554.667 340.437v-176.469l307.712 200.021-137.045 95.915zM469.333 163.968v176.512l-170.667 119.467-137.045-95.957z"
-                  ></path></svg
-                ><svg viewBox="0 0 1024 1024" class="home-icon12">
-                  <path
-                    d="M224.256 512l-96.256 67.371v-134.784zM896 579.371l-96.256-67.371 96.256-67.371zM725.333 564.096l137.045 95.957-307.712 199.979v-176.512zM373.077 512l138.923-97.237 138.923 97.237-138.923 97.237zM161.621 660.011l137.045-95.915 170.667 119.467v176.512zM535.765 49.877c-6.784-4.565-14.976-7.211-23.765-7.211s-16.981 2.645-23.765 7.211l-425.344 276.48c-4.779 2.987-9.088 6.955-12.501 11.861-5.333 7.595-7.851 16.341-7.723 24.96v297.643c-0.085 7.851 1.963 15.787 6.315 22.869 1.749 2.859 3.883 5.589 6.357 7.979 2.005 2.005 4.267 3.797 6.741 5.419l0.811 0.512 425.344 276.48c6.784 4.608 14.976 7.253 23.765 7.253s16.981-2.645 23.765-7.211l425.344-276.48c4.779-2.944 9.088-6.912 12.501-11.819 5.333-7.595 7.808-16.341 7.723-25.003v-297.643c0.085-7.851-1.963-15.787-6.315-22.869-1.749-2.859-3.883-5.589-6.357-7.979-2.005-2.005-4.267-3.797-6.741-5.419l-0.811-0.512zM554.667 340.437v-176.469l307.712 200.021-137.045 95.915zM469.333 163.968v176.512l-170.667 119.467-137.045-95.957z"
-                  ></path></svg
-                ><svg viewBox="0 0 1024 1024" class="home-icon14">
-                  <path
-                    d="M224.256 512l-96.256 67.371v-134.784zM896 579.371l-96.256-67.371 96.256-67.371zM725.333 564.096l137.045 95.957-307.712 199.979v-176.512zM373.077 512l138.923-97.237 138.923 97.237-138.923 97.237zM161.621 660.011l137.045-95.915 170.667 119.467v176.512zM535.765 49.877c-6.784-4.565-14.976-7.211-23.765-7.211s-16.981 2.645-23.765 7.211l-425.344 276.48c-4.779 2.987-9.088 6.955-12.501 11.861-5.333 7.595-7.851 16.341-7.723 24.96v297.643c-0.085 7.851 1.963 15.787 6.315 22.869 1.749 2.859 3.883 5.589 6.357 7.979 2.005 2.005 4.267 3.797 6.741 5.419l0.811 0.512 425.344 276.48c6.784 4.608 14.976 7.253 23.765 7.253s16.981-2.645 23.765-7.211l425.344-276.48c4.779-2.944 9.088-6.912 12.501-11.819 5.333-7.595 7.808-16.341 7.723-25.003v-297.643c0.085-7.851-1.963-15.787-6.315-22.869-1.749-2.859-3.883-5.589-6.357-7.979-2.005-2.005-4.267-3.797-6.741-5.419l-0.811-0.512zM554.667 340.437v-176.469l307.712 200.021-137.045 95.915zM469.333 163.968v176.512l-170.667 119.467-137.045-95.957z"
-                  ></path></svg
-                ><svg viewBox="0 0 1024 1024" class="home-icon16">
-                  <path
-                    d="M224.256 512l-96.256 67.371v-134.784zM896 579.371l-96.256-67.371 96.256-67.371zM725.333 564.096l137.045 95.957-307.712 199.979v-176.512zM373.077 512l138.923-97.237 138.923 97.237-138.923 97.237zM161.621 660.011l137.045-95.915 170.667 119.467v176.512zM535.765 49.877c-6.784-4.565-14.976-7.211-23.765-7.211s-16.981 2.645-23.765 7.211l-425.344 276.48c-4.779 2.987-9.088 6.955-12.501 11.861-5.333 7.595-7.851 16.341-7.723 24.96v297.643c-0.085 7.851 1.963 15.787 6.315 22.869 1.749 2.859 3.883 5.589 6.357 7.979 2.005 2.005 4.267 3.797 6.741 5.419l0.811 0.512 425.344 276.48c6.784 4.608 14.976 7.253 23.765 7.253s16.981-2.645 23.765-7.211l425.344-276.48c4.779-2.944 9.088-6.912 12.501-11.819 5.333-7.595 7.808-16.341 7.723-25.003v-297.643c0.085-7.851-1.963-15.787-6.315-22.869-1.749-2.859-3.883-5.589-6.357-7.979-2.005-2.005-4.267-3.797-6.741-5.419l-0.811-0.512zM554.667 340.437v-176.469l307.712 200.021-137.045 95.915zM469.333 163.968v176.512l-170.667 119.467-137.045-95.957z"
-                  ></path>
-                </svg>
-                <div class="services-card">
-                  <div class="services-card-container">
-                    <img
-                      alt="image"
-                      src="public/dice-5-200h.png"
-                      class="services-card-image"
-                    />
-                  </div>
-                  <span class="services-card-text">
-                    <span>Product Design</span>
-                  </span>
-                  <span class="services-card-text1">
-                    <span>
-                      Create your ubest unique App development, crafted for your
-                      business needs.
-                    </span>
-                  </span>
-                  <span class="services-card-text2">
-                    <span>Learn more</span>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="section-container">
-            <div class="home-max-width2 max-content-container">
-              <div class="home-text-container1">
-                <span class="home-text04">MY passions shape my person</span>
-                <span class="home-text05">
-                  <span>
-                    My hobbies helped me acquire the diverse skillset and
-                    experience I have today.
-                  </span>
-                  <br />
-                  <span>
-                    They are an important par of me, and as an artist my work
-                    defines me.
-                  </span>
-                </span>
-                <button class="button-secondary button-lg button">
-                  See my projects.
-                </button>
-              </div>
-              <div class="home-tab-selector-header">
-                <span class="home-text09 tab-selector-btn">
-                  Software design
-                </span>
-                <span class="home-text10 tab-selector-btn">3D Art</span>
-                <span class="home-text11 tab-selector-btn">Shader Art</span>
-                <span class="home-text12 tab-selector-btn">
-                  Raster/Vector Art
-                </span>
-                <span class="tab-selector-btn">Music</span>
-              </div>
-              <div class="home-tab-selector-cards-container">
-                <div
-                  class="portofolio-card-speaker-card portofolio-card-root-class-name"
-                >
-                  <div class="portofolio-card-image-container">
-                    <img
-                      alt="image"
-                      src="public/unsplash_qj15unotnh0-400h.png"
-                      class="portofolio-card-image"
-                    />
-                    <div class="portofolio-card-see-project-container">
-                      <button class="button-secondary-white button button-md">
-                        See project
-                      </button>
-                    </div>
-                  </div>
-                  <span class="portofolio-card-first-name">
-                    <span>Office Life Campaign - Boost your creativity</span>
-                  </span>
-                </div>
-                <div
-                  class="portofolio-card-speaker-card portofolio-card-root-class-name5"
-                >
-                  <div class="portofolio-card-image-container">
-                    <img
-                      alt="image"
-                      src="public/unsplash_wwqrpsnbpq4-400h.png"
-                      class="portofolio-card-image"
-                    />
-                    <div class="portofolio-card-see-project-container">
-                      <button class="button-secondary-white button button-md">
-                        See project
-                      </button>
-                    </div>
-                  </div>
-                  <span class="portofolio-card-first-name">
-                    <span>A brand-new advertising idea</span>
-                  </span>
-                </div>
-                <div
-                  class="portofolio-card-speaker-card portofolio-card-root-class-name4"
-                >
-                  <div class="portofolio-card-image-container">
-                    <img
-                      alt="image"
-                      src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEzfHxjb2NhJTIwY29sYXxlbnwwfHx8fDE2NDY5MjYyNTM&amp;ixlib=rb-1.2.1&amp;h=400"
-                      class="portofolio-card-image"
-                    />
-                    <div class="portofolio-card-see-project-container">
-                      <button class="button-secondary-white button button-md">
-                        See project
-                      </button>
-                    </div>
-                  </div>
-                  <span class="portofolio-card-first-name">
-                    <span>Coca-Cola Summer Concept Campaign - 2021</span>
-                  </span>
-                </div>
-                <div
-                  class="portofolio-card-speaker-card portofolio-card-root-class-name3"
-                >
-                  <div class="portofolio-card-image-container">
-                    <img
-                      alt="image"
-                      src="https://images.unsplash.com/photo-1519420573924-65fcd45245f8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDJ8fG51dGVsbGF8ZW58MHx8fHwxNjQ2OTI2MTky&amp;ixlib=rb-1.2.1&amp;h=400"
-                      class="portofolio-card-image"
-                    />
-                    <div class="portofolio-card-see-project-container">
-                      <button class="button-secondary-white button button-md">
-                        See project
-                      </button>
-                    </div>
-                  </div>
-                  <span class="portofolio-card-first-name">
-                    <span>
-                      Ad Campaign - I love you as much as I love Nutella
-                    </span>
-                  </span>
-                </div>
-                <div
-                  class="portofolio-card-speaker-card portofolio-card-root-class-name2"
-                >
-                  <div class="portofolio-card-image-container">
-                    <img
-                      alt="image"
-                      src="https://images.unsplash.com/photo-1567103472667-6898f3a79cf2?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fGNvY2ElMjBjb2xhfGVufDB8fHx8MTY0NjkyNjI1Mw&amp;ixlib=rb-1.2.1&amp;h=400"
-                      class="portofolio-card-image"
-                    />
-                    <div class="portofolio-card-see-project-container">
-                      <button class="button-secondary-white button button-md">
-                        See project
-                      </button>
-                    </div>
-                  </div>
-                  <span class="portofolio-card-first-name">
-                    <span>Coca-Colla Next Door Campaign - conceptual</span>
-                  </span>
-                </div>
-                <div
-                  class="portofolio-card-speaker-card portofolio-card-root-class-name1"
-                >
-                  <div class="portofolio-card-image-container">
-                    <img
-                      alt="image"
-                      src="https://images.unsplash.com/photo-1545231027-637d2f6210f8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHN0YXJidWNrc3xlbnwwfHx8fDE2NDY5MjYyMzc&amp;ixlib=rb-1.2.1&amp;h=400"
-                      class="portofolio-card-image"
-                    />
-                    <div class="portofolio-card-see-project-container">
-                      <button class="button-secondary-white button button-md">
-                        See project
-                      </button>
-                    </div>
-                  </div>
-                  <span class="portofolio-card-first-name">
-                    <span>
-                      Starbucks secret is a smile when you get your latte
-                    </span>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="home-about section-container">
-            <div class="home-max-width3 max-content-container">
-              <div class="home-text-container2">
-                <span class="home-text14">about us</span>
-                <h2 class="home-text15 Heading2">
-                  <span>We build brands with</span>
-                  <br />
-                  <span>purpose and impact</span>
-                </h2>
-                <span class="home-text19">
-                  We are a full-service digital creative agency with brick and
-                  mortar offices and plenty of in-house talent.
-                </span>
-                <div class="home-checklist">
-                  <div class="home-check-item">
-                    <svg viewBox="0 0 1024 1024" class="home-icon18">
-                      <path
-                        d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                      ></path>
-                    </svg>
-                    <span class="home-text20">
-                      Quality services and support all time
-                    </span>
-                  </div>
-                  <div class="home-check-item1">
-                    <svg viewBox="0 0 1024 1024" class="home-icon20">
-                      <path
-                        d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                      ></path>
-                    </svg>
-                    <span class="home-text21">
-                      Long-term strategy development
-                    </span>
-                  </div>
-                  <div class="home-check-item2">
-                    <svg viewBox="0 0 1024 1024" class="home-icon22">
-                      <path
-                        d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                      ></path>
-                    </svg>
-                    <span class="home-text22">
-                      FREE Brand Audit for startups
-                    </span>
-                  </div>
-                  <div class="home-check-item3">
-                    <svg viewBox="0 0 1024 1024" class="home-icon24">
-                      <path
-                        d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                      ></path>
-                    </svg>
-                    <span class="home-text23">
-                      Over 10 years in the business
-                    </span>
-                  </div>
-                  <div class="home-check-item4">
-                    <svg viewBox="0 0 1024 1024" class="home-icon26">
-                      <path
-                        d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                      ></path>
-                    </svg>
-                    <span class="home-text24">Future-Proofing Projects</span>
-                  </div>
-                  <div class="home-check-item5">
-                    <svg viewBox="0 0 1024 1024" class="home-icon28">
-                      <path
-                        d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                      ></path>
-                    </svg>
-                    <span class="home-text25">
-                      Support in any implementation
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div class="home-image-container">
-                <img
-                  alt="image"
-                  src="public/rectangle%20109-1000w.png"
-                  class="home-image6"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="home-process section-container">
-            <div class="home-max-width4 max-content-container">
-              <span class="home-text26">Our process</span>
-              <h2 class="home-text27 Heading2">
-                <span>We use a simple three step process.</span>
-                <br />
-                <span>Take a look.</span>
-              </h2>
-              <div class="home-step">
-                <span class="home-text31">01</span>
-                <div class="home-container5">
-                  <span class="home-text32">Finding the best idea</span>
-                  <span class="home-text33">
-                    There are countless businesses already in existence, so it’s
-                    very likely that you won’t be the first person to think of
-                    an idea or product. There are countless businesses already
-                    in existence, so it’s very likely that you won’t be the
-                    first person to think of an idea or product.
-                  </span>
-                </div>
-              </div>
-              <div class="home-step1">
-                <span class="home-text34">02</span>
-                <div class="home-container6">
-                  <span class="home-text35">Intense Brain storming</span>
-                  <span class="home-text36">
-                    Brainstorming is a process of toiling and generating new
-                    ideas alone or by holding intensive group discussions
-                    between team members in a team.
-                  </span>
-                </div>
-              </div>
-              <div class="home-step2">
-                <span class="home-text37">03</span>
-                <div class="home-container7">
-                  <span class="home-text38">Strong design execution</span>
-                  <span class="home-text39">
-                    As a creative, using your professional judgement, you should
-                    begin filtering your various ideas and designs, retaining
-                    the strongest relevant material.
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="section-container">
-            <div class="home-max-width5 max-content-container">
-              <span class="home-text40">from blog</span>
-              <h2 class="home-text41 Heading2">
-                <span>Our latest articles and resources</span>
-              </h2>
-              <span class="home-text43">
-                <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt
-                </span>
-                <br />
-                <span>
-                  ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                  quis nostrud exercitation.
-                </span>
-              </span>
-              <button class="home-primary2 button-secondary button-lg button">
-                Explore the blog
-              </button>
-              <div class="home-blog-cards-container">
-                <div class="blog-card-blog-card blog-card-root-class-name">
-                  <img
-                    alt="image"
-                    src="public/rectangle%2099-1500w.png"
-                    class="blog-card-image"
-                  />
-                  <div class="blog-card-container">
-                    <button class="blog-card-button button-secondary button">
-                      <span>Web Design</span>
-                    </button>
-                    <span class="blog-card-text"><span>Dec 8, 2022</span></span>
-                  </div>
-                  <span class="blog-card-text1">
-                    <span>
-                      Excepteur sint occaecat cupidatat non proident, sunt
-                    </span>
-                    <span>in culpa qui and.</span>
-                  </span>
-                  <span class="blog-card-text4"><span>Learn more</span></span>
-                </div>
-                <div class="blog-card-blog-card blog-card-root-class-name1">
-                  <img
-                    alt="image"
-                    src="public/rectangle%2099%20%5B1%5D-1500w.png"
-                    class="blog-card-image"
-                  />
-                  <div class="blog-card-container">
-                    <button class="blog-card-button button-secondary button">
-                      <span>advertising</span>
-                    </button>
-                    <span class="blog-card-text">
-                      <span>Aug 14, 2022</span>
-                    </span>
-                  </div>
-                  <span class="blog-card-text1">
-                    <span>
-                      Excepteur sint occaecat cupidatat non proident, sunt
-                    </span>
-                    <span>in culpa qui and.</span>
-                  </span>
-                  <span class="blog-card-text4"><span>Learn more</span></span>
-                </div>
-                <div class="blog-card-blog-card">
-                  <img
-                    alt="image"
-                    src="public/unsplash_h7qmwoxf6z8-1500w.png"
-                    class="blog-card-image"
-                  />
-                  <div class="blog-card-container">
-                    <button class="blog-card-button button-secondary button">
-                      <span>Branding</span>
-                    </button>
-                    <span class="blog-card-text">
-                      <span>Jul 12, 2022</span>
-                    </span>
-                  </div>
-                  <span class="blog-card-text1">
-                    <span>
-                      Excepteur sint occaecat cupidatat non proident, sunt
-                    </span>
-                    <span>in culpa qui and.</span>
-                  </span>
-                  <span class="blog-card-text4"><span>Learn more</span></span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="home-banner section-container">
-            <div class="home-max-width6 max-content-container">
-              <span class="home-text47">what are you waiting?</span>
-              <h2 class="home-text48 Heading2">
-                <span>Let’s collaborate!</span>
-              </h2>
-              <span class="home-text50">
-                <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt
-                </span>
-                <br />
-                <span>
-                  ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                  quis nostrud exercitation.
-                </span>
-              </span>
-              <button
-                class="home-primary3 button-lg button-secondary-white button"
-              >
-                Contact us
-              </button>
-            </div>
-          </div>
-        </main>
-        <div class="section-container">
-          <div class="max-content-container">
-            <div class="home-top-part">
-              <div class="home-links-container">
-                <div class="home-product-container">
-                  <span class="home-text54">Product</span>
-                  <span class="home-text55">About</span>
-                  <span class="home-text56">Portofolio</span>
-                  <span>Blog</span>
-                </div>
-                <div class="home-navigate-container">
-                  <span class="home-text58">Navigate</span>
-                  <span class="home-text59">Copyrights</span>
-                  <span class="home-text60">Sitemap</span>
-                  <span>Privacy Policy</span>
-                </div>
-                <div class="home-contact-container">
-                  <span class="home-text62">Contact Us</span>
-                  <span class="home-text63">
-                    <span>2157 Village View</span>
-                    <br />
-                    <span>Drive, Old Fort</span>
-                    <br />
-                    <span>Myers Florida</span>
-                    <br />
-                    <span>33901</span>
-                  </span>
-                </div>
-              </div>
-              <div class="home-subscribe-container">
-                <span class="home-text71">Subscribe to our newsletter</span>
-                <input
-                  type="text"
-                  placeholder="Enter your e-mail address"
-                  class="home-textinput input"
-                />
-                <button class="button-primary button">Subscribe</button>
-              </div>
-            </div>
-          </div>
-          <div class="home-separator"></div>
-          <footer class="home-max-width8 max-content-container">
-            <img alt="image" src="public/logo1-200h.png" class="home-image7" />
-            <span class="home-text72">
-              <span>All rights recived @</span>
-              <span class="home-text74">aesthetics</span>
-              <span>| Designed by</span>
-              <span class="home-text76">teleporhq.io</span>
-              <span></span>
-            </span>
-          </footer>
-        </div>
-      </div>
-    </div>
-    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Laérian Bontinck",
+            "url": "https://lbontinck.me"
+        }
+    </script>
     <script>
+        (function() {
+
+            // JavaScript snippet handling Dark/Light mode switching
+
+            const getStoredTheme = () => localStorage.getItem('theme');
+            const setStoredTheme = theme => localStorage.setItem('theme', theme);
+            const forcedTheme = document.documentElement.getAttribute('data-bss-forced-theme');
+
+            const getPreferredTheme = () => {
+
+                if (forcedTheme) return forcedTheme;
+
+                const storedTheme = getStoredTheme();
+                if (storedTheme) {
+                    return storedTheme;
+                }
+
+                const pageTheme = document.documentElement.getAttribute('data-bs-theme');
+
+                if (pageTheme) {
+                    return pageTheme;
+                }
+
+                return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            }
+
+            const setTheme = theme => {
+                if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    document.documentElement.setAttribute('data-bs-theme', 'dark');
+                } else {
+                    document.documentElement.setAttribute('data-bs-theme', theme);
+                }
+            }
+
+            setTheme(getPreferredTheme());
+
+            const showActiveTheme = (theme, focus = false) => {
+                const themeSwitchers = [].slice.call(document.querySelectorAll('.theme-switcher'));
+
+                if (!themeSwitchers.length) return;
+
+                document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
+                    element.classList.remove('active');
+                    element.setAttribute('aria-pressed', 'false');
+                });
+
+                for (const themeSwitcher of themeSwitchers) {
+
+                    const btnToActivate = themeSwitcher.querySelector('[data-bs-theme-value="' + theme + '"]');
+
+                    if (btnToActivate) {
+                        btnToActivate.classList.add('active');
+                        btnToActivate.setAttribute('aria-pressed', 'true');
+                    }
+                }
+            }
+
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+                const storedTheme = getStoredTheme();
+                if (storedTheme !== 'light' && storedTheme !== 'dark') {
+                    setTheme(getPreferredTheme());
+                }
+            });
+
+            window.addEventListener('DOMContentLoaded', () => {
+                showActiveTheme(getPreferredTheme());
+
+                document.querySelectorAll('[data-bs-theme-value]')
+                    .forEach(toggle => {
+                        toggle.addEventListener('click', (e) => {
+                            e.preventDefault();
+                            const theme = toggle.getAttribute('data-bs-theme-value');
+                            setStoredTheme(theme);
+                            setTheme(theme);
+                            showActiveTheme(theme);
+                        })
+                    })
+            });
+        })();
+    </script>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital,wght@0,400;1,400&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/bs-theme-overrides.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/Features-Small-Icons-Color-icons.css">
+</head>
+
+<body><link rel="stylesheet" href="assets/css/style.css">
+    <div><link href="assets/css/index.css" rel="stylesheet">
+        <div class="home-container">
+            <header data-role="Header" class="navigation-header">
+                <div class="navigation-max-width"><img alt="logo" src="assets/img/200_circle.png" width="86" height="86">
+                    <div class="navigation-nav">
+                        <nav class="navigation-links-nav navigation-links-root-class-name17"><span class="navigation-links-text Navigation-Link"><span>Home</span></span><span class="navigation-links-text1 Navigation-Link"><span>About</span></span><span class="navigation-links-text2 Navigation-Link"><span>Portofolio</span></span><span class="navigation-links-text3 Navigation-Link"><span>Blog</span></span></nav><button class="button-secondary button button-md"><span style="color: rgb(255,255,255);">Get in touch</span></button>
+                    </div>
+                    <div data-role="BurgerMenu" class="navigation-burger-menu"><svg viewBox="0 0 1024 1024" class="navigation-icon">
+                <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
+              </svg></div>
+                    <div data-role="MobileMenu" class="mobile-menu">
+                        <div class="navigation-nav1">
+                            <div class="navigation-container"><img alt="image" src="assets/img/logo1-1200w.png">
+                                <div data-role="CloseMobileMenu" class="navigation-close-mobile-menu"><svg viewBox="0 0 1024 1024" class="navigation-icon2">
+                      <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                    </svg></div>
+                            </div>
+                            <nav class="navigation-links-nav navigation-links-root-class-name18"><span class="navigation-links-text Navigation-Link"><span>Home</span></span><span class="navigation-links-text1 Navigation-Link"><span>About</span></span><span class="navigation-links-text2 Navigation-Link"><span>Portofolio</span></span><span class="navigation-links-text3 Navigation-Link"><span>Blog</span></span></nav><button class="button-secondary button button-md"><span>Get in touch</span></button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="home-main">
+                <div class="home-hero section-container">
+                    <div class="home-max-width max-content-container">
+                        <div class="home-heading-container">
+                            <h1 class="home-text Heading1">My Name is Laérian Bontinck</h1><span class="home-text01"> I study computer science engineering at the ENSEEIHT School of Toulouse. </span><button class="home-primary button-primary button-lg button"> Contact me. </button>
+                        </div>
+                        <div class="home-gallery">
+                            <div class="home-container1"><img alt="image" src="assets/img/rectangle%2095-1000w.png" class="home-image"></div>
+                            <div class="home-container2"><img alt="image" src="assets/img/rectangle%2095%20[1]-1000w.png" class="home-image1"><img alt="image" src="assets/img/rectangle%2095%20[2]-1000w.png" class="home-image2"></div>
+                            <div class="home-container3"><img alt="image" src="assets/img/rectangle%2095%20[3]-1000w.png" class="home-image3">
+                                <div class="home-container4"><img alt="image" src="assets/img/rectangle%2095%20[4]-1000w.png" class="home-image4"><img alt="image" src="assets/img/rectangle%2095%20[5]-1000w.png" class="home-image5"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-services section-container">
+                    <div class="home-max-width1 max-content-container">
+                        <div class="home-heading-container1" style="margin-bottom: 13px;">
+                            <div class="home-text-container"><span class="home-text02">MY SKILLset is ever-expanding</span>
+                                <h2 class="Heading2" style="margin-bottom: 0;"> I have a wide range of effective, creative, powerful skills. </h2>
+                            </div>
+                        </div>
+                        <div class="container bg-primary border rounded border-0 p-4 p-lg-5 py-4 py-xl-5" style="background: #292d34;color: rgb(255,255,255);">
+                            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3" style="margin-right: -24px;margin-top: -33px;">
+                                <div class="col">
+                                    <div class="d-flex">
+                                        <div class="bs-icon-sm bs-icon-rounded bs-icon-semi-white text-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bell">
+                                                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"></path>
+                                            </svg></div>
+                                        <div class="px-3">
+                                            <h4 class="text-white">Programming</h4>
+                                            <p>I master a wide range of languages, such as Python, C++, C#, C, Ada, Java, and I'm currently learning Rust.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex">
+                                        <div class="bs-icon-sm bs-icon-rounded bs-icon-semi-white text-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bell">
+                                                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"></path>
+                                            </svg></div>
+                                        <div class="px-3">
+                                            <h4 class="text-white">Engineering</h4>
+                                            <p>I have been formed to resolve complex issues in efficient ways. My problem-solving skills are one of my best assets.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex">
+                                        <div class="bs-icon-sm bs-icon-rounded bs-icon-semi-white text-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bell">
+                                                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"></path>
+                                            </svg></div>
+                                        <div class="px-3">
+                                            <h4 class="text-white">3D Modeling</h4>
+                                            <p>I have experience with 3D software such as Blender (extensively), but also FreeCAD and SolidWorks.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex">
+                                        <div class="bs-icon-sm bs-icon-rounded bs-icon-semi-white text-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bell">
+                                                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"></path>
+                                            </svg></div>
+                                        <div class="px-3">
+                                            <h4 class="text-white">Software (FE/BE)</h4>
+                                            <p style="text-align: left;">I have created standalone software, and I have experience in both backend, frontend, and UI/UX design.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex">
+                                        <div class="bs-icon-sm bs-icon-rounded bs-icon-semi-white text-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bezier">
+                                                <path fill-rule="evenodd" d="M0 10.5A1.5 1.5 0 0 1 1.5 9h1A1.5 1.5 0 0 1 4 10.5v1A1.5 1.5 0 0 1 2.5 13h-1A1.5 1.5 0 0 1 0 11.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm10.5.5A1.5 1.5 0 0 1 13.5 9h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM6 4.5A1.5 1.5 0 0 1 7.5 3h1A1.5 1.5 0 0 1 10 4.5v1A1.5 1.5 0 0 1 8.5 7h-1A1.5 1.5 0 0 1 6 5.5v-1zM7.5 4a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"></path>
+                                                <path d="M6 4.5H1.866a1 1 0 1 0 0 1h2.668A6.517 6.517 0 0 0 1.814 9H2.5c.123 0 .244.015.358.043a5.517 5.517 0 0 1 3.185-3.185A1.503 1.503 0 0 1 6 5.5v-1zm3.957 1.358A1.5 1.5 0 0 0 10 5.5v-1h4.134a1 1 0 1 1 0 1h-2.668a6.517 6.517 0 0 1 2.72 3.5H13.5c-.123 0-.243.015-.358.043a5.517 5.517 0 0 0-3.185-3.185z"></path>
+                                            </svg></div>
+                                        <div class="px-3">
+                                            <h4 class="text-white">Presentation skills</h4>
+                                            <p>I am familiar with Markdown, LaTeX, KaTeX, mermaid, sequence, and other presentation languages. I communicate efficiently and my reports are always clean and concise.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex">
+                                        <div class="bs-icon-sm bs-icon-rounded bs-icon-semi-white text-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-flag">
+                                                <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001M14 1.221c-.22.078-.48.167-.766.255-.81.252-1.872.523-2.734.523-.886 0-1.592-.286-2.203-.534l-.008-.003C7.662 1.21 7.139 1 6.5 1c-.669 0-1.606.229-2.415.478A21.294 21.294 0 0 0 3 1.845v6.433c.22-.078.48-.167.766-.255C4.576 7.77 5.638 7.5 6.5 7.5c.847 0 1.548.28 2.158.525l.028.01C9.32 8.29 9.86 8.5 10.5 8.5c.668 0 1.606-.229 2.415-.478A21.317 21.317 0 0 0 14 7.655V1.222z"></path>
+                                            </svg></div>
+                                        <div class="px-3">
+                                            <h4 class="text-white">Image Editing</h4>
+                                            <p>I use Gimp a lot, and I have dabbled in design just enough to know more than just the basics of image editing.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-container">
+                    <div class="home-max-width2 max-content-container">
+                        <div class="home-text-container1" style="margin-bottom: 0;"><span class="home-text04">MY passions shape my person</span><span class="home-text05"><span> My hobbies helped me acquire the diverse skillset and experience I have today. </span><br><span> They are an important par of me, and as an artist my work defines me. </span></span><button class="button-secondary button-lg button" onclick="window.location.href=&#39;https://moutondemocrate.codes&#39;;"> See my projects. </button></div>
+                    </div>
+                </div>
+                <div class="home-process section-container" style="background: #b698bb;">
+                    <div class="home-max-width4 max-content-container"><span class="home-text26" style="color: var(--dl-color-scheme-brown);">My workflow is optimal.</span>
+                        <h2 class="home-text27 Heading2"><span>I solve problems in three simple steps.</span><br><span>Take a look.</span></h2>
+                        <div class="home-step"><span class="home-text31">01</span>
+                            <div class="home-container5"><span class="home-text32">Finding the best solution</span><span class="home-text33">"The best solution is oftentimes the simplest"<br>Through careful analysis and methodical problem-solving, finding the best solution to fit all demands is what I excel at.&nbsp;</span></div>
+                        </div>
+                        <div class="home-step1"><span class="home-text34">02</span>
+                            <div class="home-container6"><span class="home-text35">Carving a solid base</span><span class="home-text36"> "Without a strong foundation, you will have trouble creating anything of value"<br>When I start a project, I always keep in mind the final objective, and the details that will come later. It's always better to have a flexible, robust base when creating anything, so that later progress is not hindered by a lack in the earlier stages.</span></div>
+                        </div>
+                        <div class="home-step2"><span class="home-text37">03</span>
+                            <div class="home-container7"><span class="home-text38">Sculpting out the details</span><span class="home-text39">"The details are not the details, they make the design"<br>The final step is to connect all the components together, and then polish, shape, and finalise the project. This step is oftentimes either too emphasised, or mostly forgotten, but it is just as important as the other two.</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-banner section-container">
+                    <div class="home-max-width6 max-content-container"><span class="home-text47" style="color: rgb(0,0,0);">what are you waiting?</span>
+                        <h2 class="home-text48 Heading2"><span style="color: rgb(255,255,255);">Let’s get to work !</span></h2><button data-bss-hover-animate="tada" class="home-primary3 button-lg button-secondary-white button" type="button" style="color: rgb(241,180,123);"> Contact me</button>
+                    </div>
+                </div>
+            </main>
+            <div class="section-container">
+                <div class="max-content-container">
+                    <div class="home-top-part">
+                        <div class="home-links-container" style="width: 554px;height: 164px;">
+                            <div class="home-product-container"><span class="home-text54">Navigate</span><span class="home-text55">About</span><span class="home-text56">Portofolio</span><span>Blog</span></div>
+                            <div class="home-contact-container"><span class="home-text62">Contact Us</span><span class="home-text63"><span>BONTINCK Laérian</span><br><span>laerian.bontinck@etu.inp-n7.fr (student)</span><br><span>laerian.bontinck@gmail.com (personnal)</span><br><span>ENSEEIHT</span></span></div>
+                        </div>
+                        <div class="home-subscribe-container"></div>
+                    </div>
+                </div>
+                <div class="home-separator"></div>
+                <footer class="home-max-width8 max-content-container"><img alt="image" src="assets/img/200_square.png" class="home-image7"><span class="home-text72"><span>All rights reserved, 2023.<br>This website is reserved for professional use.<br>Please do not contact me for anything else.</span><span class="home-text74"></span><span></span><span class="home-text76"></span><span></span></span></footer>
+            </div>
+        </div>
+    </div><script>
       window.onload = () => {
         const runAllScripts = () => {
           initializeAllSliders();
@@ -827,5 +348,8 @@
         runAllScripts();
       };
     </script>
-  </body>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+</body>
+
 </html>
