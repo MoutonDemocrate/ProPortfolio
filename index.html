@@ -113,7 +113,7 @@
             <header data-role="Header" class="navigation-header">
                 <div class="navigation-max-width"><img alt="logo" src="assets/img/200_circle.png" width="86" height="86">
                     <div class="navigation-nav">
-                        <nav class="navigation-links-nav navigation-links-root-class-name17"><span class="navigation-links-text Navigation-Link"><span>Home</span></span><span class="navigation-links-text1 Navigation-Link"><span>About</span></span><span class="navigation-links-text2 Navigation-Link"><span>Portofolio</span></span><span class="navigation-links-text3 Navigation-Link"><span>Blog</span></span></nav><button class="button-secondary button button-md"><span style="color: rgb(255,255,255);">Get in touch</span></button>
+                        <nav class="navigation-links-nav navigation-links-root-class-name17"><a href="#home"><span class="navigation-links-text Navigation-Link" href="#home"><span data-url="#home" style="color: rgb(255,255,255);">Home</span></span></a><a href="#about"><span class="navigation-links-text1 Navigation-Link" style="color: #eaf5de;"><span>About</span></span></a><a href="#hobby"><span class="navigation-links-text2 Navigation-Link"><span style="color: #ffffff;">Hobbyist Portofolio</span></span></a><a href="#workflow"><span class="navigation-links-text3 Navigation-Link"><span style="color: #ffffff;">Workflow</span></span></a></nav><button class="button-secondary button button-md" onclick="location.href=&#39;mailto:laerian.bontinck@gmail.com&#39;" type="button"><span style="color: rgb(255,255,255);">Get in touch</span></button>
                     </div>
                     <div data-role="BurgerMenu" class="navigation-burger-menu"><svg viewBox="0 0 1024 1024" class="navigation-icon">
                 <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
@@ -131,7 +131,7 @@
                 </div>
             </header>
             <main class="home-main">
-                <div class="home-hero section-container">
+                <div id="home" class="home-hero section-container">
                     <div class="home-max-width max-content-container">
                         <div class="home-heading-container">
                             <h1 class="home-text Heading1">My Name is Laérian Bontinck</h1><span class="home-text01"> I study computer science engineering at the ENSEEIHT School of Toulouse. </span><button class="home-primary button-primary button-lg button"> Contact me. </button>
@@ -145,7 +145,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="home-services section-container">
+                <div id="about" class="home-services section-container">
                     <div class="home-max-width1 max-content-container">
                         <div class="home-heading-container1" style="margin-bottom: 13px;">
                             <div class="home-text-container"><span class="home-text02">MY SKILLset is ever-expanding</span>
@@ -225,12 +225,29 @@
                         </div>
                     </div>
                 </div>
-                <div class="section-container">
+                <div style="width: 100vw;background: var(--dl-color-scheme-white);">
+                    <div style="margin-top: 45px;margin-bottom: 45px;background: rgba(38,41,45,0);">
+                        <div class="container" style="color: rgba(255,245,233,0);">
+                            <div class="row">
+                                <div class="col-md-6 d-xxl-flex justify-content-xxl-center align-items-xxl-center" style="color: rgba(255,245,233,0);"><video controls="" width="300" height="300">
+                                        <source src="e_video.webm" type="video/webm">
+                                    </video></div>
+                                <div class="col-md-6 d-xxl-flex align-items-xxl-center">
+                                    <div class="d-flex flex-column flex-grow-1 flex-shrink-1 flex-fill justify-content-center align-items-center align-content-center justify-content-xxl-center align-items-xxl-center justify-content-center text-center" style="width: auto;height: auto;">
+                                        <h1 style="color: var(--dl-color-scheme-brown);">A SHORT VIDEO PRESENTATION</h1>
+                                        <p style="color: var(--dl-color-scheme-black);">This short presentation was made as an assignement for class.<br>Sorry in advance for the poor video quality, I own a studio microphone but no decent camera.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="hobby" class="section-container">
                     <div class="home-max-width2 max-content-container">
                         <div class="home-text-container1" style="margin-bottom: 0;"><span class="home-text04">MY passions shape my person</span><span class="home-text05"><span> My hobbies helped me acquire the diverse skillset and experience I have today. </span><br><span> They are an important par of me, and as an artist my work defines me. </span></span><button class="button-secondary button-lg button" onclick="window.location.href=&#39;https://moutondemocrate.codes&#39;;"> See my projects. </button></div>
                     </div>
                 </div>
-                <div class="home-process section-container" style="background: #b698bb;">
+                <div id="workflow" class="home-process section-container" style="background: #b698bb;">
                     <div class="home-max-width4 max-content-container"><span class="home-text26" style="color: var(--dl-color-scheme-brown);">My workflow is optimal.</span>
                         <h2 class="home-text27 Heading2"><span>I solve problems in three simple steps.</span><br><span>Take a look.</span></h2>
                         <div class="home-step"><span class="home-text31">01</span>
@@ -246,11 +263,11 @@
                 </div>
                 <div class="home-banner section-container">
                     <div class="home-max-width6 max-content-container"><span class="home-text47" style="color: rgb(0,0,0);">what are you waiting?</span>
-                        <h2 class="home-text48 Heading2"><span style="color: rgb(255,255,255);">Let’s get to work !</span></h2><button data-bss-hover-animate="tada" class="home-primary3 button-lg button-secondary-white button" type="button" style="color: rgb(241,180,123);"> Contact me</button>
+                        <h2 class="home-text48 Heading2"><span style="color: rgb(255,255,255);">Let’s get to work !</span></h2><button data-bss-hover-animate="tada" class="home-primary3 button-lg button-secondary-white button" type="button" style="color: rgb(241,180,123);" onclick="location.href=&#39;mailto:laerian.bontinck@gmail.com&#39;"> Contact me</button>
                     </div>
                 </div>
             </main>
-            <div class="section-container">
+            <div id="footer" class="section-container">
                 <footer class="home-max-width8 max-content-container"><img alt="image" src="assets/img/200_square.png" class="home-image7"><span class="home-text72"><span>All rights reserved, 2023.<br>This website is reserved for professional use.<br>Please do not contact me for anything else.</span><span class="home-text74"></span><span></span><span class="home-text76"></span><span></span></span></footer>
             </div>
         </div>
