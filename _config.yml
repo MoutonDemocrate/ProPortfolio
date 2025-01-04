@@ -1,0 +1,44 @@
+# site settings
+title: Laérian Bontinck
+subtitle: Software Engineering
+email: laerian.bontinck@etu.inp-n7.fr
+description: Second Year Computer Science student at the ENSEEIHT, in France - Software Engineering Major
+  Second Year Computer Science student at the ENSEEIHT, in France - Software Engineering Major
+baseurl: # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author: Laérian Bontinck
+street_address:
+city: Toulouse
+state: Occitanie
+zip_code: 31400
+country: France
+phone: +31 7 82 66 74 76
+
+# homepage tiles
+tiles-source: all # accepts "posts" or "pages" or all
+tiles-count: 6
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/moutondemocrate
+  GitLab:
+  Instagram:
+  LinkedIn:
+  Twitter:
+  Facebook:
+  Slack:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
