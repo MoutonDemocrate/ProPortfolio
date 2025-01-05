@@ -23,6 +23,7 @@ nav-menu: true
 		<header class="major">
 			<h2>And in English...</h2>
 		</header>
+		<p> Warning : Slightly Outdated </p>
 		<a href="/CV/CV_en.pdf" class="button icon fa-download">Download</a>
 	</div>
 </section>
