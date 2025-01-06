@@ -2,7 +2,7 @@
 layout: post
 title: About Me
 description: Skillset - Studies - Experience - Hobbies
-image: assets/images/enseeiht_hallc_out.jpg
+image: assets/images/LB_banner.png
 nav-menu: true
 ---
 
