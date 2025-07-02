@@ -51,11 +51,24 @@ nav-menu: true
 
 ## PCE
 
-<div style="border: 2px solid white; padding: 1em; aspect-ratio: 1.7777; text-align: center; align-content: center;">
-    No video here yet ! <br>
-    It's not finished !
-</div>
+<audio controls style="width: 100%;">
+    <source src="assets/audio/ai_academics.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
 
 <br>
 
-<a href="assets/PCE M1 Retake Slides.pdf" style="width: 100%;" class="button" special icon fa-download target="_blank" rel="noopener noreferrer"> Slides (to check references, my screen is quite small) </a>
+<details>
+    <summary>List of Sources (originally on the slides, but without a video, this is more accessible)</summary>
+
+    <div style="border: 2px solid white; padding: 1em;">
+        <a href="https://www.aiprm.com/ai-in-education-statistics/" target="_blank">https://www.aiprm.com/ai-in-education-statistics/</a><br>
+        <a href="https://www.eschoolnews.com/digital-learning/2024/02/05/what-is-the-impact-of-artificial-intelligence-on-students/" target="_blank">https://www.eschoolnews.com/digital-learning/2024/02/05/what-is-the-impact-of-artificial-intelligence-on-students/</a><br>
+        <a href="https://artsmart.ai/blog/ai-in-education-statistics-2025/" target="_blank">https://artsmart.ai/blog/ai-in-education-statistics-2025/</a><br>
+        <a href="https://www.waldenu.edu/programs/education/resource/five-pros-and-cons-of-ai-in-the-education-sector" target="_blank">https://www.waldenu.edu/programs/education/resource/five-pros-and-cons-of-ai-in-the-education-sector</a><br>
+        <a href="https://research.com/research/the-role-of-ai-in-academic-research" target="_blank">https://research.com/research/the-role-of-ai-in-academic-research</a><br>
+        <a href="https://www.tc.columbia.edu/institutional-review-board/irb-blog/2024/understanding-artificial-intelligence-with-the-irb-ethics-and-advice/" target="_blank">https://www.tc.columbia.edu/institutional-review-board/irb-blog/2024/understanding-artificial-intelligence-with-the-irb-ethics-and-advice/</a><br>
+        <a href="https://www.sbm.itb.ac.id/2024/08/22/the-use-of-artificial-intelligence-in-academic-research-raises-ethical-challenges/" target="_blank">https://www.sbm.itb.ac.id/2024/08/22/the-use-of-artificial-intelligence-in-academic-research-raises-ethical-challenges/</a><br>
+        <a href="https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1457299/full" target="_blank">https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1457299/full</a>
+    </div>
+</details>
